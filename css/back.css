@@ -1,0 +1,177 @@
+.container{
+    padding: 0 50px;
+    font-family: 'Lato';
+    margin-top: 50px;
+}
+.back__title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px; 
+    color: #181438;  
+}
+.back__text{
+    margin-top: 25px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.back__btn{
+    margin-top: 23px;
+    width: 118px;
+    height: 40px;
+    border: none;
+    background: #00C88F;
+    border-radius: 19px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #181438;
+}
+.back__work{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.back__about{
+    margin-top: 50px;
+}
+.back__about-title{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.back__about-text{
+    width: 387px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.man__img{
+    position: absolute;
+    left: 650px;
+    top: 25%;
+}
+.man{
+    width: 452px;
+    height: 395px;
+}
+.common__support{
+    margin-top: 70px;
+    position: relative;
+}
+.support{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.back__item{
+    width: 984px;
+    height: 143px;
+    margin: 0 auto;
+    background: #FFF4F4;
+    box-shadow: 1px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+}
+.item__top-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 7px;
+    top: 71%;
+    z-index: -3;
+}
+.laravel__img{
+    width: 67px;
+    height: 69px;
+}
+.item__text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6E6B6B;
+    text-align: center;
+    margin-top: 15px;
+}
+.node__js-img{
+    width: 108px;
+    height: 43px;
+    margin-top: 25px;
+}
+.go__img{
+    width: 103px;
+    height: 39px;
+    margin-top: 29px;
+}
+.firebase__img{
+    width: 50px;
+    height: 68px;
+    margin-top: 3px;
+}
+.php__img{
+    width: 84px;
+    height: 45px;
+    margin-top: 25px;
+}
+.postgresql__img{
+    width: 59px;
+    height: 61px;
+    margin-top: 8px;
+}
+
+.item__bottom-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    right: 16px;
+    top: 21%;
+    z-index: -3;
+}
+@media screen and (max-width: 950px) {
+    .container{
+        padding: 0 20px;
+    }
+    .back__text{
+        width: auto;
+    }
+    .back__about-text{
+        width: auto;
+    }
+    .man__img{
+        position: absolute;
+        left: 1px;
+        top: 90%;   
+        /* margin: 0 auto; */
+    }
+    .man{
+        width: 305px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .common__support{
+        margin-top: 100%;
+    }
+    .back__item{
+        width: auto;
+        height: auto;
+        grid-gap: 2px;
+        margin: 0 auto;
+    }
+    .item__top-point{
+        background: none;
+    }
+    .item__bottom-point{
+        background: none;
+    }
+}

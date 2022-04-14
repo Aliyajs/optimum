@@ -1,0 +1,219 @@
+.container{
+    padding: 0 50px;
+    font-family: 'Lato';
+    margin-top: 50px;
+}
+.front__title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px; 
+    color: #181438;  
+}
+.front__text{
+    margin-top: 25px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.front__btn{
+    margin-top: 23px;
+    width: 118px;
+    height: 40px;
+    border: none;
+    background: #00C88F;
+    border-radius: 19px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #181438;
+}
+.front__work{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.front__about{
+    margin-top: 50px;
+}
+.front__about-title{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.front__about-text{
+    width: 344px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.man__img{
+    position: absolute;
+    left: 650px;
+    bottom: 5%;
+}
+.man{
+    width: 300px;
+    height: 334px;
+}
+.common__support{
+    margin-top: 70px;
+    position: relative;
+}
+.support{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.front__item{
+    width: 984px;
+    height: 143px;
+    margin: 0 auto;
+    background: #FFF4F4;
+    box-shadow: 1px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+}
+.item__top-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 7px;
+    top: 81%;
+    z-index: -3;
+}
+.angular__img{
+    background: url("../img/angular.svg");
+    display: block;
+    width: 68px;
+    height: 72px;
+}
+.angular__img:hover{
+    background: url("../img/greenAngular.svg");
+    background-repeat: no-repeat;
+    /* background-position: 0 -40px;  */
+}
+.item__text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6E6B6B;
+    text-align: center;
+    margin-top: 10px;
+}
+.js__img{
+    margin-top: 5px;
+    width: 59px;
+    height: 67px;
+    background: url("../img/js.svg");
+    background-repeat: no-repeat;
+    display: block; 
+}
+.js__img:hover{
+    background: url("../img/greenJs.svg");
+    background-repeat: no-repeat;
+    /* background-position: 0 -2px; */
+    width: 113px;
+    height: 126px;
+}
+.vue__img{
+    margin-top: 6px;
+    background: url("../img/vue.svg");
+    background-repeat: no-repeat;
+    display: block; 
+    width: 77px;
+    height: 66px;
+}
+.vue__img:hover{
+    background: url("../img/vueGreen.svg");
+    background-repeat: no-repeat;
+    background-position: 0 -2px;
+    width: 140px;
+    height: 120px;
+}
+.jquery__img{
+    margin-top: 24px;
+    background: url("../img/jquery.svg");
+    background-repeat: no-repeat;
+    display: block; 
+    width: 250px;
+    height: 50px;
+}
+.jquery__img:hover{
+    background: url("../img/greenJquery.svg");
+    background-repeat: no-repeat;
+    background-position: 0 -2px;
+}
+.react__img{
+    margin-top: 5px;
+    display: block;
+    width: 75px;
+    height: 68px;
+    background: url("../img/react.svg");
+    background-repeat: no-repeat;
+}
+.react__img:hover{
+    background: url("../img/greenReact.svg");
+    background-repeat: no-repeat;
+    background-position: 0 -2px;
+    width: 125px;
+    height: 110px;
+}
+.item__bottom-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    right: 16px;
+    top: 18%;
+    z-index: -3;
+}
+@media screen and (max-width: 950px) {
+    .container{
+        padding: 0 20px;
+    }
+    .front__text{
+        width: auto;
+    }
+    .front__about-text{
+        width: auto;
+    }
+    .man__img{
+        position: absolute;
+        left: 1px;
+        top: 105%;   
+    }
+    .man{
+        width: 250px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .common__support{
+        margin-top: 65%;
+    }
+    .support{
+        margin-bottom: 40px;
+    }
+    .front__item{
+        width: auto;
+        height: auto;
+        grid-gap: 20px;
+        margin: 0 auto;
+    }
+    .item__top-point{
+        background: none;
+    }
+    .item__bottom-point{
+        background: none;
+    }
+}

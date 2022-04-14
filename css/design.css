@@ -1,0 +1,232 @@
+.container{
+    padding: 0 50px;
+    font-family: 'Lato';
+    margin-top: 50px;
+}
+.design__title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px; 
+    color: #181438;  
+}
+.design__text{
+    margin-top: 25px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.design__btn{
+    margin-top: 23px;
+    width: 118px;
+    height: 40px;
+    border: none;
+    background: #00C88F;
+    border-radius: 19px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #181438;
+}
+.design__work{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.design__text-left{
+    margin-top: 50px;
+}
+.process__title{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.process__text{
+    width: 344px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.design__phone{
+    position: absolute;
+    left: 530px;
+    bottom: 1%;
+}
+.poin__top{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    right: 477px;
+    bottom: 80%;
+    z-index: -3;
+}
+.telephones{
+    display: flex;
+    justify-content: space-around;
+}
+.phone{
+    width: 177px;
+    height: 338px;
+}
+.point__bottom{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 475px;
+    top: 287px;
+    z-index: -3;
+}
+.platforms{
+    margin-top: 40px;
+}
+.platform__title{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181438;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.card__top-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 8px;
+    top: 117px;
+    z-index: -3;
+}
+.two__card{
+    display: flex;
+    grid-gap: 55px;
+}
+.first__card{
+    width: 285px;
+    height: 155px;
+    background: #FFF4F4;
+    text-align: center;
+    box-shadow: 1px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 13px 10px;
+}
+.bg__image{
+    width: 43px;
+    height: 43px;
+    background: #00C88F;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 7px 5px;
+}
+.card__img{
+    width: 20px;
+    height: 30px;
+}
+.card__title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181438;
+    margin-top: 5px;
+}
+.card__text{
+    width: 255px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #6E6B6B;
+}
+.second__card{
+    width: 285px;
+    height: 153px;
+    background: #FFF4F4;
+    text-align: center;
+    box-shadow: 1px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 13px 10px;
+}
+.third__card{
+    width: 285px;
+    height: 155px;
+    background: #FFF4F4;
+    text-align: center;
+    box-shadow: 1px 4px 9px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 13px 10px;
+}
+.card__bottom-point{
+    background: url("../img/points.svg");
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    right: 17px;
+    bottom: 100px;
+    z-index: -3;
+}
+@media screen and (max-width: 950px) {
+    .design__text{
+        width: auto;
+    }
+    .design__text-left{
+        margin-top: 100%;
+    }
+    .process__text{
+        width: auto;
+    }
+    .design__phone{
+        margin-top: 15px;
+        position: absolute;
+        left: 1px;
+        top: 8%;
+    }
+    .poin__top{
+        position: absolute;
+        width: 65px;
+        height: 60px;
+        right: 80%;
+        bottom: 82%;
+    }
+    .phone{
+        width: 95px;
+        height: 200px;
+    }
+    .point__bottom{
+        position: absolute;
+        width: 65px;
+        height: 60px;
+        left: 81%;
+        top: 140px;
+    }
+    .card__top-point{
+        background: none;
+    }
+    .first__card{
+        width: 150px;
+        height: auto;
+    }
+    .card__text{
+        width: 130px;
+    }
+    .second__card{
+        width: 150px;
+        height: auto;
+    }
+    .third__card{
+        width: 150px;
+        height: auto;
+        margin-top: 25px;
+    }
+    .card__bottom-point{
+        background: none;
+    }
+}

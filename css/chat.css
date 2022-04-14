@@ -1,0 +1,126 @@
+.container{
+    padding: 0 50px;
+    font-family: 'Lato';
+    margin-top: 50px;
+}
+.top__chat{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.chat__title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    color: #181438;
+}
+.chat__text{
+    margin-top: 10px;
+    width: 344px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.work__gmail{
+    margin-top: 50px;
+}
+.work__title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6E6B6B;
+}
+.work__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #181438;
+}
+.input__box{
+    margin-top: 30px;
+}
+.start__title{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #181438;
+}
+.about__date{
+    margin-top: 30px;
+}
+.about__inp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top__input{
+    display: flex;
+    grid-gap: 55px;
+    flex-wrap: wrap;
+}
+.date__inp{
+    margin-top: 20px;
+    width: 287px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid #8C8A8A;
+    color: #000;
+    background: none;
+    border-radius: 22px;
+}
+.bottom__inp{
+    display: flex;
+    grid-gap: 55px;
+    flex-wrap: wrap;
+}
+.message__inp{
+    margin: 30px 0;
+    width: 630px;
+    border: none;
+    outline: none;
+    padding: 20px 15px 100px 15px;
+    color: #000;
+    background: none;
+    border: 1px solid #8C8A8A;
+    border-radius: 22px;
+}
+.date__btn{
+    width: 172px;
+    height: 50px;
+    border: none;
+    background: #00C88F;
+    border-radius: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181438;
+}
+@media screen and (max-width: 950px) {
+    .container{
+        padding: 0 20px;
+    }
+    .chat__text{
+        width: auto;
+    }
+    .work__gmail{
+        margin-top: 10px;
+    }
+    .date__inp{
+        width: 290px;
+        height: 50px;
+    }
+    .top__input{
+        grid-gap: 10px;
+    }
+    .bottom__inp{
+        grid-gap: 10px;
+    }
+    .message__inp{
+        width: 290px;
+        height: 115px;
+    }
+}
